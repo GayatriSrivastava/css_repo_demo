@@ -3,9 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>welcome</title>
+    <title>Document</title>
+    <style>
+         ul li:nth-child(even){
+            background-color: blue
+        }
+        ul li::before{
+            content:"welcome HELLO";
+        }
+        ul li::after{
+            content:"*";
+            font-size: 50px;
+            padding:10px;
+            color:red
+        } 
+        /* [title^="li"]{ */
+            /* background-color: red; */
+        /* } */
+        [title$="es"]{
+            background-color: red;
+
+        }
+        
+    </style>
 </head>
 <body>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium cupiditate quae doloribus vero deserunt, dolorem similique ab earum error nesciunt, excepturi quam, amet hic necessitatibus totam laboriosam ducimus maxime placeat.</p>
+    <ul>
+        <li>first</li>
+        <li>second</li>
+        <li>third</li>
+        <li>fourth</li>
+        <li>fifth</li>
+        <li>sixth</li>  
+        <li>seventh</li>
+        <li>eight</li>
+    </ul>
+    <div class="main"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro architecto, dicta eum molestias excepturi iusto quia facere odit ipsa quibusdam commodi debitis nobis? Soluta error voluptates consequatur modi mollitia repellendus.</p></div>
+    <div class="container"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, nostrum, eligendi dignissimos earum quas assumenda accusamus tempora asperiores quibusdam quia quisquam libero in recusandae? Ut, ipsum. Inventore dolore architecto iusto.</p></div>
+    <a href="" title="link with href">link with href</a>
+    <a href="" title="link with title">link with title</a>
+    <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, dolores a maiores velit ipsam quas tenetur maxime sit voluptatem praesentium repellendus voluptatibus neque fugit vero placeat quia accusamus suscipit ea!</p>
+</body>
 </body>
 </html>
